@@ -70,7 +70,7 @@ def compute_optimal_threshold(y_test, y_pred_prob):
 #%%
 # Cargar metadatos y datos
 metadata = pd.read_csv('Dataset/AudioTraining_v5.csv')
-audio_path = '../Audio_Datasets'
+audio_path = '../Audio Tesis/Audio_Datasets'
 features, labels = import_audios(audio_path, metadata)
 
 
