@@ -3,7 +3,7 @@ import socket
 # Configuración del servidor UDP
 UDP_IP = "192.168.1.102"  # Dirección IP del servidor
 UDP_PORT = 8080           # Puerto UDP del servidor
-
+#hdfcbhb
 # Crear el socket UDP
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.bind((UDP_IP, UDP_PORT))
